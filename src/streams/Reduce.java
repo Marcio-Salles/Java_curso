@@ -10,7 +10,7 @@ public class Reduce {
 
         List<Integer> nums = Arrays.asList(1,2,3,4,5,6,7,8,9);
 
-        BinaryOperator<Integer> soma = ( ac, n) -> ac+n;
+        BinaryOperator<Integer> soma = ( ac, n) -> ac + n;
 
         nums.stream()
                 .filter(n-> n > 7)
