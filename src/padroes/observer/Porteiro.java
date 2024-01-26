@@ -17,15 +17,4 @@ public class Porteiro {
         observadores.add(observador);
     }
 
-    public void monitorar(){
-        Scanner entrada = new Scanner(System.in);
-
-        while (true) {
-            int valor = entrada.nextInt();
-
-            if (valor == 1) {
-                ChegadaAniversarianteEvent event = new ChegadaAniversarianteEvent(new Date());
-
-
-
 }
