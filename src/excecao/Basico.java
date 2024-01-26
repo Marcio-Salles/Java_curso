@@ -1,5 +1,7 @@
 package excecao;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Basico {
 
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class Basico {
 
         System.out.println("fim do programa");
     }
-        public static void imprimirNomeDoAluno( Aluno aluno){
+        public static void imprimirNomeDoAluno(@NotNull Aluno aluno){
                             System.out.println(aluno.nome);
     }
 }
