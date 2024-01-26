@@ -20,8 +20,8 @@ public class Pares <CHAVE extends Number, VALOR> {
         itens.add(novoPar);
     }
 
-public VALOR getValor(CHAVE,chave){
-        if (chave ==null) return  null;
+//public VALOR getValor(CHAVE,chave){
+//        if (chave ==null) return  null;
 }
 
-}
+
